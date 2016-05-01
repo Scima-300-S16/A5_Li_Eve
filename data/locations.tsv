@@ -1,9 +1,9 @@
 0	United States	167	204	2015: 101 million iPhone users
-1	Brazil	456	400
-2	Netherlands	 663	159
-3	Switzerland	667	180
-4	Mongolia	1053	164
-5	China	1061	209
-6	South Korea	1140	215
-7	Japan	1180	211
-8	Taiwan	1130	257
+1	Brazil	456	400	Manufactured in São Paulo, the only assembly factory in the world made outside China
+2	Netherlands	 663	159	NXP, global semiconductor manufacturer HQ, makes wireless chips that connects the phone to pay terminals 
+3	Switzerland	667	180	STMicroelectronics, manufacturer of semiconductors, functions as gyroscope tracking and semiconductor chip maker, but unable to compete with Asia
+4	Mongolia	1053	164	Mines 90% of rare earth minerals (lanthanides, scandium, yttrium) that make the color screen, glass polishing, circuitry, speakers, and vibration unit. 
+5	China	1061	209	“The world’s factory” Where the all the parts are assembled. One production line makes 72,000 iPhone 5’s in one day. What takes USA 9 months takes China 15 days to manufacture. It’s a 66 hours work week with a minimum quota of 600 iPhones per day (one per minute). 
+6	South Korea	1140	215	LG display makes the display panel. SK Hynix makes GB storage.
+7	Japan	1180	211	LG engineers make display panel made of liquid crystal for longer battery life, chipset, memory, and cameras. Companies like Hyundai and Innolux 
+8	Taiwan	1130	257	TSMC (Taiwan Semiconductor Manufacturing Company) and SK Hynix provide chip-making, DRAM (flash memory).
