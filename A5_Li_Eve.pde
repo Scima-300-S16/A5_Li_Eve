@@ -39,6 +39,7 @@ void draw() {
   for (int row = 0; row<rowCount; row++) {
     //assign id values to variable called id
     String id = locationTable.getRowName(row);
+    String definition = locationTable.getRowName(row);
     //get the 2nd and 3rd fields and assign them to
     float x = locationTable.getFloat(id, 2);
     float y = locationTable.getFloat(id, 3);
@@ -87,7 +88,8 @@ void drawData(float x, float y, String id) {
   if ((d<radius+2) && (d<closestDist)) {
     closestDist = d;
     String name = locationTable.getString(id, 1);
-    closestText = name +" ";
+    String definition = locationTable.getString(id, 4);
+    closestText = name +" " + definition;
     closestTextX = x;
     closestTextY = y-radius-4;
   }
