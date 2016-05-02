@@ -40,6 +40,7 @@ void draw() {
     //assign id values to variable called id
     String id = locationTable.getRowName(row);
     String description = locationTable.getRowName(row);
+    String district = locationTable.getRowName(row);
     //get the 2nd and 3rd fields and assign them to
     float x = locationTable.getFloat(id, 5);
     float y = locationTable.getFloat(id, 4);
@@ -89,7 +90,8 @@ void drawData(float x, float y, String id) {
     closestDist = d;
     String name = locationTable.getString(id, 1);
     String description = locationTable.getString(id, 2);
-    closestText = name +": \n "+ description;
+    String district = locationTable.getString(id, 3);
+    closestText = district +": \n" +name +": \n " + description;
     closestTextX = x;
     closestTextY = y-radius-4;
   }
